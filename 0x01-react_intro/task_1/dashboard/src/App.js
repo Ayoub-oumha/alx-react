@@ -1,9 +1,10 @@
 import "./App.css"
+import logo from "./Holberton-logo.png"
 
 export default function App(){
   return <>
   <header className="App-header">
-    <img alt="logo"  src={`${process.env.PUBLIC_URL}/Holberton-logo.png`}/>
+    <img alt="logo"  src={logo}/>
     <h1>School dashboard</h1>
   </header>
   <body className="App-body">
