@@ -9,10 +9,14 @@ function getFooterCopy(isIndex){
         return "Holberton School";
     }
     else {
-        return "Holberton School main dashboard"
+        return "Holberton School main dashboard";
     }
+}
+function getLatestNotification(){
+    return "<strong>Urgent requirement</strong> - complete by EOD";
 }
 module.exports = {
     getFooterCopy ,
-    getFullYear
+    getFullYear,
+    getLatestNotification
 }

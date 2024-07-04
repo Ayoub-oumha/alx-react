@@ -11,6 +11,13 @@ export default function App(){
   </header>
   <body className="App-body">
     <p>Login to access the full dashboard</p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required />
+
+    <button>OK</button>
   </body>
   <footer className="App-footer">
     <p>Copyright {getFullYear()} - {getFooterCopy()}</p>
