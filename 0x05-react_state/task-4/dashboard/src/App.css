@@ -1,0 +1,19 @@
+.App-header {
+  display: flex;
+  align-items: center;
+  border-bottom : 5px  #e0354b solid ;
+}
+img {
+  width: 100px;
+}
+h1 {
+  color: #e0354b;
+}
+.App-body {
+  height: 200px;
+  margin: 30px;
+}
+.App-footer{
+  text-align: center;
+  border-top : 5px  #e0354b solid ;
+}
